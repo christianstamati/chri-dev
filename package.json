@@ -26,6 +26,7 @@
     "eslint": "^8",
     "eslint-config-next": "15.0.0-canary.106",
     "postcss": "^8",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
