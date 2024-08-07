@@ -8,13 +8,14 @@ import { users } from "@/payload/collections/users";
 import { header } from "@/payload/globals/header";
 import { footer } from "@/payload/globals/footer";
 import { media } from "@/payload/collections/media";
+import { pages } from "@/payload/collections/pages";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
   editor: lexicalEditor(),
-  collections: [users, media],
+  collections: [users, media, pages],
   globals: [header, footer],
   secret: process.env.PAYLOAD_SECRET || "",
   typescript: {
