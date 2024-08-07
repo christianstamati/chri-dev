@@ -4,7 +4,7 @@ services:
     image: postgres:15-alpine
     environment:
       POSTGRES_PASSWORD: supersecretpassword
-      POSTGRES_DB: example-app-db
+      POSTGRES_DB: chri-dev
     volumes:
       - pgdata:/var/lib/postgresql/data
     ports:
