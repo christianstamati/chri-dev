@@ -4,15 +4,18 @@ import { buildConfig } from "payload";
 import { postgresAdapter } from "@payloadcms/db-postgres";
 import { fileURLToPath } from "url";
 import path from "path";
-import { Media } from "@/payload/collections/Media";
-import { Users } from "@/payload/collections/Users";
+import { users } from "@/payload/collections/users";
+import { header } from "@/payload/globals/header";
+import { footer } from "@/payload/globals/footer";
+import { media } from "@/payload/collections/media";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
   editor: lexicalEditor(),
-  collections: [Users, Media],
+  collections: [users, media],
+  globals: [header, footer],
   secret: process.env.PAYLOAD_SECRET || "",
   typescript: {
     outputFile: path.resolve(dirname, "payload-types.ts"),
