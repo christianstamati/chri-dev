@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83273da9-7ed5-4552-950a-2f7b7c7fd9c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/payload/collections/Users.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/payload.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/payload/collections/media.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload/collections/Media.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/payload/collections/users.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <updated>1723033649042</updated>
       <workItem from="1723033650504" duration="161000" />
       <workItem from="1723033819140" duration="6133000" />
-      <workItem from="1723040889137" duration="35000" />
+      <workItem from="1723040889137" duration="406000" />
     </task>
     <servers />
   </component>
