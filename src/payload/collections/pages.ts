@@ -1,4 +1,7 @@
 import { CollectionConfig } from "payload";
+import { cover } from "@/payload/blocks/cover/schema";
+import { image } from "@/payload/blocks/image/schema";
+import { richText } from "@/payload/blocks/rich-text/schema";
 
 export const pages: CollectionConfig = {
   slug: "pages",
@@ -13,6 +16,7 @@ export const pages: CollectionConfig = {
       name: "slug",
       label: "Slug",
       type: "text",
+      required: true,
       admin: {
         position: "sidebar",
       },
@@ -21,7 +25,8 @@ export const pages: CollectionConfig = {
       name: "layout",
       label: "Layout",
       type: "blocks",
-      blocks: [],
+      required: true,
+      blocks: [cover, image, richText],
     },
   ],
 };

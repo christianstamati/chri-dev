@@ -3,12 +3,13 @@ import { getPayloadHMR } from "@payloadcms/next/utilities";
 import config from "@payload-config";
 import Image from "next/image";
 import Link from "next/link";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 async function Header() {
   const payload = await getPayloadHMR({ config });
   const header = await payload.findGlobal({ slug: "header" });
   return (
-    <div className="flex items-center justify-between border-gray-500 p-4">
+    <div className="flex items-center justify-between bg-neutral-500 p-4 text-white">
       <Link href={"/"}>
         <div className="relative h-10 w-14">
           <Image
@@ -26,6 +27,7 @@ async function Header() {
           </Link>
         ))}
       </div>
+      <ThemeToggle />
     </div>
   );
 }

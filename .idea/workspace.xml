@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83273da9-7ed5-4552-950a-2f7b7c7fd9c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/payload/collections/pages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(frontend)/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theme-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/payload/blocks/cover/schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/payload/blocks/cover/server.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/payload/blocks/image/schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/payload/blocks/rich-text/schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/theme-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/render-blocks.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/payload.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(frontend)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(frontend)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(frontend)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(frontend)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload/blocks/global/footer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload/blocks/global/header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payload-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payload/collections/pages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload/collections/pages.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -34,35 +48,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/MyStuff/Projects/ChriDev/chri-dev/src/payload/globals",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "C:\\MyStuff\\Projects\\ChriDev\\chri-dev\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\MyStuff\\Projects\\ChriDev\\chri-dev\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyStuff/Projects/ChriDev/chri-dev/src/payload/blocks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\MyStuff\\Projects\\ChriDev\\chri-dev\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\MyStuff\\Projects\\ChriDev\\chri-dev\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\payload\globals" />
       <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\payload\blocks" />
+      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\payload\blocks\rich-text" />
+      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\payload\globals" />
       <recent name="C:\MyStuff\Projects\ChriDev\chri-dev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\providers" />
+      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\utils" />
+      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\app\(frontend)\[slug]" />
+      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\payload\blocks\global" />
       <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\components\Footer" />
-      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\components\Header" />
-      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\components" />
-      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\payload\globals" />
-      <recent name="C:\MyStuff\Projects\ChriDev\chri-dev\src\payload\globals\Footer" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -82,7 +97,9 @@
       <updated>1723033649042</updated>
       <workItem from="1723033650504" duration="161000" />
       <workItem from="1723033819140" duration="6133000" />
-      <workItem from="1723040889137" duration="8151000" />
+      <workItem from="1723040889137" duration="11351000" />
+      <workItem from="1723064833858" duration="1259000" />
+      <workItem from="1723094180473" duration="5362000" />
     </task>
     <servers />
   </component>
